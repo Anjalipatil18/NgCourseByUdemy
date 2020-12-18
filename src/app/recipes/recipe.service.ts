@@ -11,19 +11,19 @@ export class RecipeService {
 
   private recipes: Recipe[] = [
     new Recipe(
-      'Tasty Schnitzel',
-      'A super-tasty Schnitzel - just awesome!',
-      'https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG',
+      'Tasty Bhutta Kiss ',
+      'A super-tasty Khich - just awesome!',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5zlyGhPsL2owm2yVS16L3NvEJh0_z0VSwFg&usqp=CAU',
       [
-        new Ingredient('Meat', 1),
-        new Ingredient('French Fries', 20)
+        new Ingredient('Corn pinuts', 1),
+        new Ingredient('Greted corn stir fry', 20)
       ]),
-    new Recipe('Big Fat Burger',
-      'What else you need to say?',
-      'https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg',
+    new Recipe('Shahi Paneer ',
+      'What else you need to say? - just awesome!',
+      '',
       [
-        new Ingredient('Buns', 2),
-        new Ingredient('Meat', 1)
+        new Ingredient('Matter', 2),
+        new Ingredient('Franch Rice', 1)
       ])
   ];
 
