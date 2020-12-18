@@ -12,15 +12,15 @@ export class RecipeService {
   private recipes: Recipe[] = [
     new Recipe(
       'Tasty Bhutta Kiss ',
-      'A super-tasty Khich - just awesome!',
+      'A super-tasty Kiss - just awesome!',
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5zlyGhPsL2owm2yVS16L3NvEJh0_z0VSwFg&usqp=CAU',
       [
         new Ingredient('Corn pinuts', 1),
         new Ingredient('Greted corn stir fry', 20)
       ]),
     new Recipe('Shahi Paneer ',
-      'What else you need to say? - just awesome!',
-      '',
+      'A super-tasty curry - just awesome!',
+      'https://i1.wp.com/alltimehungry.com/wp-content/uploads/2020/06/Shahi-Paneer-All-Time-Hunrgy.jpg?resize=795%2C481&ssl=1',
       [
         new Ingredient('Matter', 2),
         new Ingredient('Franch Rice', 1)
