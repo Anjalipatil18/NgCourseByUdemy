@@ -28,6 +28,7 @@ export class DataStorageService {
         )
         .pipe(
             map(recipes=>{
+                console.log(recipes)
                 return recipes.map(recipe => {
                     return {
                         ...recipe,
