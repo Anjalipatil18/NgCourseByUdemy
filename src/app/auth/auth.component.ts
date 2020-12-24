@@ -23,10 +23,7 @@ export class AuthComponent implements OnDestroy{
               private componentFactoryResolver: ComponentFactoryResolver){}
 
 
-  ngOnDestroy(): void {
-    this.closeSub.unsubscribe();
-
-  }
+  
 
   onSwitchMode(){
     this.isLoginMode= !this.isLoginMode;
@@ -83,5 +80,9 @@ export class AuthComponent implements OnDestroy{
         hostViewContainRef.clear();
         }
       )
+  }
+
+  ngOnDestroy(): void {
+    this.closeSub.unsubscribe();
   }
 }
